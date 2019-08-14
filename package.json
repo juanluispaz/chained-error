@@ -1,0 +1,34 @@
+{
+  "name": "chained-error",
+  "version": "1.0.0",
+  "description": "Zero dependencies error that allows creating a chain of errors, preserving the original cause (with TypeScript support)",
+  "main": "dist/ChainedError.js",
+  "types": "dist/ChainedError.d.ts",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^3.5.3"
+  },
+  "scripts": {
+    "build": "rm -Rf dist/*; tsc",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juanluispaz/chained-error.git"
+  },
+  "keywords": [
+    "error",
+    "combined error",
+    "caused by",
+    "nested error"
+  ],
+  "author": {
+    "name": "Juan Luis Paz Rojas",
+    "url": "http://github.com/juanluispaz"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juanluispaz/chained-error/issues"
+  },
+  "homepage": "https://github.com/juanluispaz/chained-error"
+}

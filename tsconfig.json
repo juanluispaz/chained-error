@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "alwaysStrict": true,
+        
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "strictFunctionTypes": true,
+        "strictPropertyInitialization": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        
+        "strict": true,
+        
+        "noFallthroughCasesInSwitch": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        
+        "target": "ESNext",
+        "module": "commonjs",
+        "newLine": "LF",
+        
+        "sourceMap": true,
+        "declaration": true,
+        "outDir": "dist",
+        
+        "noEmitOnError": true,
+        
+        "removeComments": true
+    }
+}
